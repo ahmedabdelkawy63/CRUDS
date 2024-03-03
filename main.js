@@ -137,8 +137,8 @@ showData();
 
 function deleteData(i) {
   dataPro.splice(i,1);
-  localStorage.product = JSON.stringify(dataPro);
-  showData();
+  //localStorage.product = JSON.stringify(dataPro);
+  //showData();
 }
 
 function deleteAll() {
