@@ -142,7 +142,7 @@ function deleteData(i) {
 }
 
 function deleteAll() {
-  dataPro.splice(0);
+  dataPro.splice(0,1);
   localStorage.clear();
   showData();
 }
