@@ -136,13 +136,13 @@ showData();
 // delete
 
 function deleteData(i) {
-  dataPro.splice(i);
+  dataPro.splice(i,1);
   localStorage.product = JSON.stringify(dataPro);
   showData();
 }
 
 function deleteAll() {
-  dataPro.splice(0,1);
+  dataPro.splice(0);
   localStorage.clear();
   showData();
 }
